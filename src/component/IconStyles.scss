@@ -1,0 +1,51 @@
+@import '../utils/variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+.icon-container {
+  width: 11rem;
+  height: 11rem;
+  border: 10px black;
+  margin: auto;
+  position: relative;
+
+  .double-quote {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: $secondary-color;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+
+    p {
+      font-family: 'Passion One', cursive;
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+      font-size: 3rem;
+      height: inherit;
+      margin: auto;
+      height: inherit;
+      width: inherit;
+    }
+  }
+
+  .icon-background {
+    width: 9.5rem;
+    height: 9.5rem;
+    background-color: $secondary-color;
+    right: 0.5rem;
+    top: -0.3rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+  }
+
+  img {
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+  }
+}
