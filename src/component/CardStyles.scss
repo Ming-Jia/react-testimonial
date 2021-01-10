@@ -1,0 +1,68 @@
+@import '../utils/variables.scss';
+
+.card {
+  padding: 2rem;
+  background-color: #fff;
+  position: relative;
+  z-index: 0;
+  box-shadow: 1px 1px 15px rgb(150, 150, 150);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.job-position {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: $secondary-color;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+p {
+  color: $paragraph-color;
+}
+
+.button-container {
+  margin: auto;
+
+  button {
+    border: none;
+    margin: 0.5rem;
+    font-size: 2rem;
+    background: none;
+    color: $button-color;
+    font-weight: 900;
+
+    &:hover {
+      cursor: pointer;
+      color: $secondary-color;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.next-button {
+  background: rgb(237, 247, 254);
+  color: $secondary-color;
+  border: none;
+  border-radius: 5%;
+  padding: 0.3rem 0.5rem;
+  font-weight: 500;
+  font-size: 0.8rem;
+
+  &:hover {
+    cursor: pointer;
+    background: $secondary-color;
+    color: black;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
